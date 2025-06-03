@@ -4,7 +4,9 @@
              x:Class="JulianTorresProgreso2.About"
              Title="About">
 
-    <Grid Margin="20,35,20,20">
+    <Grid Margin="20,35,20,20"
+          RowSpacing="6"
+          ColumnSpacing="6">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
