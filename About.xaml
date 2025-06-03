@@ -46,6 +46,7 @@
                Text="Version: &#10; 1.0" 
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"/>
-        
+    
     </Grid>
+    
 </ContentPage>
