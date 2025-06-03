@@ -1,10 +1,10 @@
 using System.Net.Http.Json;
 
-namespace PruebaProgresoII;
+namespace JulianTorresProgreso2;
 
-public partial class ChistesPage : ContentPage
+public partial class Chistes : ContentPage
 {
-    public ChistesPage()
+    public Chistes()
     {
         InitializeComponent();
         LoadJoke();

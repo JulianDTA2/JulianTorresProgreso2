@@ -5,18 +5,18 @@
              Title="Chistes">
     <AbsoluteLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        
+            x:Name="JokeLabel"
+            FontSize="15"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            HorizontalTextAlignment="Center"/>
+
         <Button 
+            
+            AbsoluteLayout.LayoutBounds="115,150,100,100"
             Text="otro Chiste"
             x:Name="DarOtroChiste"
-            Clicked="DarOtroChiste_Clicked"
-            AbsoluteLayout.LayoutBounds="115,150,100,100" 
-            BackgroundColor="White"
-            BorderColor="Black"
-            TextColor="Black"/>
+            Clicked="DarOtroChiste_Clicked"/>
 
     </AbsoluteLayout>
 </ContentPage>
