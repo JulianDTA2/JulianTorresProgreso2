@@ -8,7 +8,7 @@
     Title="JulianTorresProgreso2">
 
     <ShellContent
-        Title="Home"
+        Title="Prueba Progreso 2"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
